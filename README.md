@@ -7,3 +7,7 @@ I'm making it public because I like to learn in the open, with the hope that thi
 ## Part 1
 
 - Chapter 1: Up and Running
+  - hello.cpp: A "Hello, world" to test that the environment is set up properly
+  - conditional-behavior.cpp: Exploring basic conditional control flow, printf
+  - step-function.cpp: Exploring functions that take a param, printf format specifiers
+  - exercises.cpp: End-of-chapter exercises to write a couple of basic funcs, use printf to see results
