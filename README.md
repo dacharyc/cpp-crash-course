@@ -29,6 +29,9 @@ I'm making it public because I like to learn in the open, with the hope that thi
   - initialization.cpp: A whirlwind tour of different ways to initialize variables & classes. Takeway: use braced initialization
   - initialize-fully-featured-classes.cpp: 8 different ways to initialize a class with 4 different constructors. Only 7 work!
   - exercises.cpp: End-of-chapter exercises to write a calculator that takes an Operation, performs addition, subtraction, multiplication, or division, and returns the result
+- Chapter 3: Reference Types
+  - pointers.cpp: Pointers, address-of operator, dereference operator, & format specifiers
+  - member-of-pointer.cpp: Member-of or arrow operator - dereferences & accesses a member of the pointed-to object
 
 ## General Notes
 - Ran into an issue with a range-based for loop where `clang++` compiled with an older version of cpp. Got a warning `warning: range-based for loop is a C++11 extension [-Wc++11-extensions]`
