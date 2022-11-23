@@ -32,6 +32,9 @@ I'm making it public because I like to learn in the open, with the hope that thi
 - Chapter 3: Reference Types
   - pointers.cpp: Pointers, address-of operator, dereference operator, & format specifiers
   - member-of-pointer.cpp: Member-of or arrow operator - dereferences & accesses a member of the pointed-to object
+  - pointers-and-arrays.cpp: Arrays can decay into a pointer & exploring a couple of different ways that can happen
+  - handling-array-decay.cpp: Exploring a common pattern to handle/avoid array decay 
+  - pointer-arithmetic.cpp: A look at two ways to obtain the address of an nth element, including an intro to pointer arithmetic
 
 ## General Notes
 - Ran into an issue with a range-based for loop where `clang++` compiled with an older version of cpp. Got a warning `warning: range-based for loop is a C++11 extension [-Wc++11-extensions]`

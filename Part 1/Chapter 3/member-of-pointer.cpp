@@ -26,4 +26,9 @@ int main() {
     clock_ptr->set_year(2022);
     printf("Address of clock: %p\n", clock_ptr);
     printf("Value of clock's year: %d\n", clock_ptr->get_year());
+    /* Another way to do the above would be:
+     * printf("Value of clock's year: %d\n", (*clock_ptr).get_year());
+     * First derefence `clock_prt` and then access the year. But it's a more verbose 
+     * syntax and provides no benefit over simpler alternative.
+     */
 }
