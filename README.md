@@ -35,6 +35,19 @@ I'm making it public because I like to learn in the open, with the hope that thi
   - pointers-and-arrays.cpp: Arrays can decay into a pointer & exploring a couple of different ways that can happen
   - handling-array-decay.cpp: Exploring a common pattern to handle/avoid array decay 
   - pointer-arithmetic.cpp: A look at two ways to obtain the address of an nth element, including an intro to pointer arithmetic
+  - pointer-danger.cpp: Demonstrating the danger of pointers by trying to assign to a memory address that is out-of-bounds
+  - references-intro.cpp: Declaring an arg as a reference, no dereferencing needed
+  - linked-list.cpp: An intro to a forward-linked list
+  - traverse-linked-list.cpp: Traverse a linked list using a for loop and a cursor pointer
+  - reseating-references.cpp: Simple example to illustrate that you cannot reseat references
+  - this-pointers.cpp: Access the current object - i.e. the object that is executing the method. Disambiguate member name collisions.
+  - const-arguments.cpp: A const pointer or reference is an efficient way to pass an object into a function for read-only use
+  - const-methods.cpp: Marking a method const marks it as a read-only method
+  - const-member-variables.cpp: Marking a member variable as const means it cannot be modified after initialization
+  - member-initializer-lists.cpp: You can mark a member variable as const but set its value at runtime using a member initializer
+  - initialization-with-auto.cpp: You can use auto instead of type information when you initialize with assignment
+  - auto-reference-types.cpp: You can add modifiers to the auto declaration to add the intended meanings
+  - exercises.cpp: End-of-chapter exercises. See also exercise-3.2.cpp and exercise-3-3.cpp - broken out from this file to make things more readable
 
 ## General Notes
 - Ran into an issue with a range-based for loop where `clang++` compiled with an older version of cpp. Got a warning `warning: range-based for loop is a C++11 extension [-Wc++11-extensions]`
