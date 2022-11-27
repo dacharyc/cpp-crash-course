@@ -48,6 +48,10 @@ I'm making it public because I like to learn in the open, with the hope that thi
   - initialization-with-auto.cpp: You can use auto instead of type information when you initialize with assignment
   - auto-reference-types.cpp: You can add modifiers to the auto declaration to add the intended meanings
   - exercises.cpp: End-of-chapter exercises. See also exercise-3.2.cpp and exercise-3-3.cpp - broken out from this file to make things more readable
+- Chapter 4: The Object Life Cycle
+  - automatic-storage-duration.cpp: Intro to automatic objects, with a function example to illustrate automatic storage duration/local variables
+  - static-storage-duration.cpp: Intro to static objects, with a function to illustrate static object storage duration/global variables
+  - local-static-variables.cpp: Static variables that are local to a function but persist from first invocation until program execution completes. Weird!
 
 ## General Notes
 - Ran into an issue with a range-based for loop where `clang++` compiled with an older version of cpp. Got a warning `warning: range-based for loop is a C++11 extension [-Wc++11-extensions]`
