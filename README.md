@@ -52,6 +52,14 @@ I'm making it public because I like to learn in the open, with the hope that thi
   - automatic-storage-duration.cpp: Intro to automatic objects, with a function example to illustrate automatic storage duration/local variables
   - static-storage-duration.cpp: Intro to static objects, with a function to illustrate static object storage duration/global variables
   - local-static-variables.cpp: Static variables that are local to a function but persist from first invocation until program execution completes. Weird!
+  - static-members.cpp: Use the `static` keyword to identify members of a class that aren't associated with a particular instance of the class.
+  - thread-local.cpp: Use the `thread-local` keyword to designate thread-local storage duration
+  - dynamic-storage.cpp: Allocate and deallocate dynamic storage on request with a `new` expression and `delete` expression
+  - trace-object-life-cycle.cpp: Example code that explores the different storage durations
+  - throw.cpp: Explore exceptions via the throw keyword
+  - handling-exceptions.cpp: Explore various exception handling techniques. This code does not compile - it's just a long list of examples.
+  - throwing-in-destructors.cpp: If you throw an exception in a destructor, you are juggling with chainsaws.
+  - simple-string.cpp: Explore how constructors, destructors, members, and exceptions gel together in an extended example
 
 ## General Notes
 - Ran into an issue with a range-based for loop where `clang++` compiled with an older version of cpp. Got a warning `warning: range-based for loop is a C++11 extension [-Wc++11-extensions]`
